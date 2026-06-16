@@ -18,7 +18,7 @@
   --detalhes: #B8975A;
 }
 .header-bg{
-  background: var(--destaque);
+  background: var(--bg);
 }
 .header{
   display: flex;
@@ -29,11 +29,16 @@
   align-items: center;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-  color: var(--bgsecond);
+  color: var(--destaque);
+}
+.navlink {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
 }
 .navlink a{
   gap: 2.5rem;
-  color: var(--bgsecond);
+  color: var(--destaque);
 }
 .navlink a:hover{
   color: var(--hoover);
@@ -44,4 +49,12 @@
   padding-right: 1.25rem;
   margin-left: auto;
   margin-right: auto;
+}
+.perfil{
+  width: 10rem;
+  border-radius: 50%;
+}
+img{
+  width: 100%;
+
 }
