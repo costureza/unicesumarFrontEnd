@@ -1,4 +1,4 @@
-*{
+* {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
@@ -8,53 +8,78 @@
   outline: none;
 }
 
-:root{
+:root {
   --destaque: #CB0002;
   --hoover: #7A0001;
-  --bg:#FAF9F7;
-  --bgsecond:#E8E6E3;
+  --bg: #FAF9F7;
+  --bgsecond: #E8E6E3;
   --texto: #1A1A1A;
   --textosec: #4A4A4A;
   --detalhes: #B8975A;
 }
-.header-bg{
-  background: var(--bg);
+
+.header-bg {
+  background: var(--destaque);
 }
-.header{
+
+.header {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  gap: 1.25rem;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-  color: var(--destaque);
+  color: var(--bgsecond);
 }
+
 .navlink {
   display: flex;
   flex-wrap: wrap;
   gap: 2.5rem;
 }
-.navlink a{
+
+.navlink a {
   gap: 2.5rem;
+  background: var(--bgsecond);
   color: var(--destaque);
+  padding: .5rem;
+  margin: .5rem;
+  border-radius: 1rem;
 }
-.navlink a:hover{
-  color: var(--hoover);
+
+.navlink a:hover {
+  background: var(--hoover);
 }
-.container{
+
+.container {
   max-width: 1200px;
-  padding-left:1.25rem;
+  padding-left: 1.25rem;
   padding-right: 1.25rem;
   margin-left: auto;
   margin-right: auto;
 }
-.perfil{
-  width: 10rem;
-  border-radius: 50%;
-}
-img{
-  width: 100%;
 
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.perfil img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sobremim-bg,
+.projetos-bg {
+  background: var(--bgsecond);
+}
+
+.habilidade-bg {
+  background: var(--bg);
 }
