@@ -65,14 +65,19 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  flex-direction: column;
 }
 
 .perfil img {
-  width: 8rem;
-  height: 8rem;
+  width: 4rem;
+  height: 4rem;
   border-radius: 50%;
   object-fit: cover;
+}
+.info{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: .8rem;
 }
 
 .sobremim-bg,
@@ -80,6 +85,30 @@
   background: var(--bgsecond);
 }
 
+.sobremim{
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
 .habilidade-bg {
   background: var(--bg);
+}
+.habilidade ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.habilidade li i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--destaque);
+  color: var(--bgsecond);
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+
 }
