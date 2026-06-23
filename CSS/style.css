@@ -87,28 +87,106 @@
 
 .sobremim{
   padding: 2rem;
+}
+.title{
+  font-size: 4rem;
+  text-transform: lowercase;
+  font-weight: bold;
+  padding: 1.25rem;
+}
+.title span{
+  color: var(--detalhes);
+}
+.sobremim p{
   font-size: 1.5rem;
+  color: var(--textosec);
 }
 
 .habilidade-bg {
   background: var(--bg);
+}
+.habilidade{
+  padding: 1.25rem;
 }
 .habilidade ul {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  padding: 1rem;
+  padding: .25rem;
 }
-.habilidade li i{
+.habilidade li {
   display: flex;
   align-items: center;
   justify-content: center;
   background: var(--destaque);
   color: var(--bgsecond);
   font-size: 2rem;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
+  font-weight: bold;
+  width: 100%;  
+  border-radius: .5rem;
+  text-transform: uppercase;
+  margin: .2rem;
+  padding: .5rem;
+  gap: .5rem;
 
+}
+
+.projetos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.projetos ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+.projetos li{
+  background: var(--bg);
+  border-radius: .5rem;
+  padding: 1.25rem;
+}
+.projeto-img{
+  width: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projeto-img img{
+  width: 100%;
+  object-fit: contain;
+  border-radius: .5rem;
+}
+.card{
+  display: flex;
+
+}
+.status{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.status h3{
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.status i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  background: var(--detalhes);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: .8rem;
+}
+.status p{
+  font-size: 1.2rem;
 }
