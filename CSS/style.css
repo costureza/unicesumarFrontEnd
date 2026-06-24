@@ -46,6 +46,8 @@
   padding: .5rem;
   margin: .5rem;
   border-radius: 1rem;
+  cursor: pointer;
+  transition: .2s;
 }
 
 .navlink a:hover {
@@ -92,7 +94,7 @@
   font-size: 4rem;
   text-transform: lowercase;
   font-weight: bold;
-  padding: 1.25rem;
+
 }
 .title span{
   color: var(--detalhes);
@@ -106,7 +108,11 @@
   background: var(--bg);
 }
 .habilidade{
-  padding: 1.25rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .habilidade ul {
   display: flex;
@@ -129,9 +135,11 @@
   margin: .2rem;
   padding: .5rem;
   gap: .5rem;
-
 }
 
+.projetos{
+  padding: 1.5rem;
+}
 .projetos ul{
   display: flex;
   align-items: center;
@@ -193,7 +201,42 @@
   color: var(--textosec);
   padding-left: .5rem;
 }
+.curiosidade{
+  padding: 1.25rem;
+}
+.curiosidade p{
+  font-size: 1.5rem;
+  color: var(--textosec);
+  line-height: 1.5;
+  padding: .5rem;
+}
+.curiosidade a{
+  font-size: 2rem;
+  color: #CB0002;
+  background: var(--bgsecond);
+  border-radius: .8rem;
+  cursor: pointer;
+  transition: .2s;
+}
+.curiosidade a:hover{
+  color: #7A0001;
 
+}
 .footer-bg{
   background: var(--destaque);
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+}
+.footer p{
+  color: var(--bgsecond);
+  font-size: 1.5rem;
+
+}
+.footer img{
+  width: 12rem;
+  padding: .5rem;
 }
