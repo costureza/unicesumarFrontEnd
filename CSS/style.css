@@ -17,6 +17,13 @@
   --textosec: #4A4A4A;
   --detalhes: #B8975A;
 }
+.container {
+  max-width: 1200px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .header-bg {
   background: var(--destaque);
@@ -53,13 +60,7 @@
   background: var(--hoover);
 }
 
-.container {
-  max-width: 1200px;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .header-content {
   display: flex;
