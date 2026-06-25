@@ -17,12 +17,23 @@
   --textosec: #4A4A4A;
   --detalhes: #B8975A;
 }
+
 .container {
   max-width: 1200px;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.title {
+  font-size: 4rem;
+  text-transform: lowercase;
+  font-weight: bold;
+}
+
+.title span {
+  color: var(--detalhes);
 }
 
 .header-bg {
@@ -61,7 +72,6 @@
 }
 
 
-
 .header-content {
   display: flex;
   align-items: center;
@@ -91,17 +101,6 @@
 
 .sobremim {
   padding: 2rem;
-}
-
-.title {
-  font-size: 4rem;
-  text-transform: lowercase;
-  font-weight: bold;
-
-}
-
-.title span {
-  color: var(--detalhes);
 }
 
 .sobremim p {
